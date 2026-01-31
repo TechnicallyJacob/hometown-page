@@ -1,32 +1,51 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         
         <!-- HERO SECTION -->
         <div class="header">
-            <h1>Visit Cookeville</h1>
-            <h2>Enjoy history and nature in this cozy city in Middle Tennessee.</h2>
+            <h1 class="header-text">Visit Cookeville</h1>
+            <h2 class="header-text">Enjoy history and nature in this cozy city in Middle Tennessee.</h2>
         </div>
         
         <!-- ACTIVITIES SECTION -->
-        <div>
-            <h3>Top three activities to do in Cookeville</h3>
-            <div class="activities">
-                <img src="images/burgess-falls.jpg">
-                <img src="images/train-depot.jpeg">
-                <img src="images/ttu.jpeg">
+            <h3 id="act-head">Top three activities to do in Cookeville</h3>
+            <div id="act">
+                <div class="falls ">
+                    <img class="act-img" src="images/burgess-falls.jpg">
+                    <p class="act-text">Burgess Falls State Park is a natural area southwest of Cookeville featuring
+                    a series of waterfalls, including a dramatic 136-foot drop along the Falling Water River 
+                    and scenic trails through rugged gorge terrain.</p>
+                </div>
+                
+                <div class="train">
+                    <img class="act-img" src="images/train-depot.jpeg">
+                    <p class="act-text">The historic Cookeville Railroad Depot, built in 1909 and listed on the National Register 
+                    of Historic Places, now houses the Cookeville Depot Museum showcasing Tennessee Central Railroad 
+                    artifacts and exhibits.</p>
+                </div>
+
+                <div class="ttu">
+                    <img class="act-img" src="images/ttu.jpeg">
+                    <p class="act-text">Tennessee Technological University is a public research university in Cookeville known for its engineering,
+                     technology, and STEM programs, with a campus community of over 10,000 students.</p>
+                </div>
             </div>
-        </div>
 
         <!-- GUIDE SECTION -->
-        <div>
-            <h3>Your guide</h3>
-            <p>"I have lived at Torshov for over 30 years, so I can show you all of its best parts and hidden secrets."</p>
-            <h4>Per Harald Borgen</h4>
-            <img src="images/stinkylinky.jpg">
+        <div id="guide-wrap">
+            <div id="guide-text">
+                <h3>Your guide</h3>
+                <p>"I have lived in Cookeville for over 15 years,<br>so I can show you all of its best parts and hidden secrets."</p>
+                <h4>-technicallyJacob</h4>
+            </div>
+            <img id="guide-img"src="images/stinkylinky.jpg">
         </div>
     </body>
 </html>
